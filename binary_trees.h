@@ -2,6 +2,8 @@
 #define BINARY_TREES
 
 #include <stddef.h>
+/*Binary search tree*/
+typedef struct binary_tree_s bst_t;
 #include <stdlib.h>
 
 /**
@@ -21,8 +23,6 @@ struct binary_tree_s
 };
 
 typedef struct binary_tree_s binary_tree_t;
-/*Binary search tree*/
-typedef struct binary_tree_s bst_t;
 /*AVL Tree*/
 typedef struct binary_tree_s avl_t;
 /*Max Binary Heap*/
@@ -68,3 +68,4 @@ avl_t *avl_remove(avl_t *root, int value);
 
 
 #endif /* BINARY_TREES */
+
